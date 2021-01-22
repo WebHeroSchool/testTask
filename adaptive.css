@@ -1,0 +1,131 @@
+/* 320 */
+
+@media only screen and (max-width: 499) {
+  body {
+    width: 75%;
+    padding-top: 11.2%;
+  }
+  
+  .header__line {
+    margin-bottom: 2%;
+  }
+  
+  .header__title {
+    font: 43px/51px gilroy-regular, Helvetica, sans-serif;
+    margin: 0 0 6.5% 0;
+  }
+  
+  .main {
+    grid-template-columns: 1fr;
+    margin-bottom: 9.7vw;
+  }
+  
+  .block {
+    width: 36.271vw;
+    height: 36.271vw;
+    margin: 0 2.563vw 4.7vw 0;
+  }
+  
+  .block__img {
+    height: 26.7vw;
+  }
+  
+  .block__description {
+    font: 16px/28px gilroy-bold, Helvetica, sans-serif;
+  }
+}
+
+/* 768 */
+
+@media only screen and (min-width: 500px) and (max-width: 1023px) {
+  body {
+    width: 93.5%;
+    padding-top: 10.7%;
+  }
+
+  .header__line {
+    margin-bottom: 2%;
+  }
+
+  .header__title {
+    font: 5.599vw/6.641vw gilroy-regular, Helvetica, sans-serif;
+    margin: 0 0 6% 0;
+  }
+  
+  .main {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3.255vw;
+  }
+  
+  .block {
+    width: 45vw;
+    height: 45vw;
+    margin: 0 3.6vw 5.9vw 0;
+  }
+  
+  .block__img {
+    height: 33vw;
+  }
+  
+  .block__description {
+    font: 2.083vw/3.646vw gilroy-bold, Helvetica, sans-serif;
+    padding: 5% 0 0 9%;
+  }
+
+  .kitchen-img {
+    background: url(./img/bedroom.png) no-repeat;
+    background-size: cover;
+  }
+
+  .bedroom-img {
+    background: url(./img/kitchen.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+/* 1024 */
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+  body {
+    width: 75%;
+    padding-top: 11.2%;
+  }
+  
+  .header__line {
+    margin-bottom: 2%;
+  }
+  
+  .header__title {
+    font: 4.199vw/4.980vw gilroy-regular, Helvetica, sans-serif;
+    margin: 0 0 6.5% 0;
+  }
+  
+  .main {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 9.7vw;
+  }
+  
+  .block {
+    width: 36.271vw;
+    height: 36.271vw;
+    margin: 0 2.563vw 4.7vw 0;
+  }
+  
+  .block__img {
+    height: 26.7vw;
+  }
+  
+  .block__description {
+    font: 1.563vw/2.734vw gilroy-bold, Helvetica, sans-serif;
+  }
+
+  .kitchen-img {
+    background: url(./img/bedroom.png) no-repeat;
+    background-size: cover;
+  }
+
+  .bedroom-img {
+    background: url(./img/kitchen.png) no-repeat;
+    background-size: cover;
+  }
+}
